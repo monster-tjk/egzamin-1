@@ -117,6 +117,47 @@ width: 200px;
     display: flex;
     justify-content: center;
 }
+.a26{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.a26 h1{
+    font-size: 50px;
+}
+.a26 p{
+    font-size: 20px;
+    color: gray;
+}
+.a27{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.a29{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #F2F2F2 ;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.a28{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px
+    ;
+}
+.a30{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 
 
 
@@ -184,7 +225,22 @@ width: 200px;
 .a25{
     width: 100%;
 }
-    
+.a27{
+    flex-direction: column;
+}
+    .a30{
+        width: 100%;
+        gap: 30px;
+    }
+    .a26{
+        width: 85%;
+        padding: 30px 0px;
+    }
+    .a29{
+        width: 85%;
+        gap: 50px;
+        padding: 20px 40px   ;
+    }
 }
     
 
@@ -275,4 +331,29 @@ width: 200px;
 .a17{
     font-size: 35px;
 }
+.a26{
+        width: 95%;
+        padding: 30px 0px;
+    }
+    .a26 h1{
+    font-size: 45px;
+    }
+.a30{
+        width: 100%;
+        gap: 30px;
+    }
+.a29{
+        width: 82%;
+        gap: 10px;
+        padding: 20px 25px ;
+        flex-direction: column ;
+        
+    }
+    .a28 h1{
+        font-size: 26px;
+    }
+    .a31{
+        display: flex;
+        margin-right: auto;
+    }
 }
