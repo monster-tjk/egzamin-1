@@ -158,9 +158,100 @@ width: 200px;
     gap: 50px;
     flex-wrap: wrap;
 }
+.a32    {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.a32 h1{
+    font-size: 50px;
+}
+.a32 p{
+    font-size: 18px;
+    color: gray;
+}
+.a33 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 200px;
+}
+.a35{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+.a36{
+    width: 150px;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    border-radius: 20px;
+box-shadow: 0px 0px 10px 1px rgb(0, 0, 0) ;
+}
+.a37{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.a38 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
 
+.a39 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
 
+.a39 img {
+    max-width: 100%;
+    height: auto;
+}
 
+.a40 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.a41 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.a42 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2b0a14; 
+    line-height: 1.2;
+    margin: 0;
+}
+
+.a43 {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
 
 
 
@@ -241,6 +332,31 @@ width: 200px;
         gap: 50px;
         padding: 20px 40px   ;
     }
+    .a33{
+        order: 2;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .a34{
+        order: 1;
+    }
+.a32 {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.a38{
+    flex-direction: column;
+}
+.a39{
+    order:2;
+    
+}
+.a40{
+    order: 1;
+}
+
 }
     
 
@@ -355,5 +471,15 @@ width: 200px;
     .a31{
         display: flex;
         margin-right: auto;
+    }
+    .a35{
+        font-size: 25px;
+        padding: 20px 0px ;
+        width: 300px;
+        margin: auto;
+
+    }
+    .a37{
+        gap: 20px   ;
     }
 }
