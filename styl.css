@@ -102,9 +102,7 @@ width: 200px;
     justify-content: center;
     row-gap: 20px;
     align-items: baseline;
-    background: #F2F2F2;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 1px rgb(138, 133, 109);
     text-align: left; 
 }
 .a22{
@@ -139,7 +137,6 @@ width: 200px;
     display: flex;
     align-items: center;
     gap: 20px;
-    background: #F2F2F2 ;
     width: 500px;
     padding: 20px;
     border-radius: 20px;
@@ -356,6 +353,13 @@ box-shadow: 0px 0px 10px 1px rgb(0, 0, 0) ;
 .a40{
     order: 1;
 }
+.a44{
+    order:2;
+    
+}
+.a45{
+    order: 1;
+}
 
 }
     
@@ -482,4 +486,11 @@ box-shadow: 0px 0px 10px 1px rgb(0, 0, 0) ;
     .a37{
         gap: 20px   ;
     }
+    .a44{
+    order:2;
+    
+}
+.a45{
+    order: 1;
+}
 }
