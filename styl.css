@@ -249,8 +249,130 @@ box-shadow: 0px 0px 10px 1px rgb(0, 0, 0) ;
     line-height: 1.6;
     margin: 0;
 }
+.a46{
+    font-size: 45px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+.a47{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px ;
+}
 
+.a50 {
+    background-color: #181818;
+    color: #ffffff;
+    padding: 60px 20px 30px 20px;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #252525;
+}
 
+.a51 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.a52 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 140px;
+}
+
+.a53 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 5px 0;
+}
+
+/* Стил барои параграфҳои матнӣ */
+.a54 {
+    color: #999999;
+    font-size: 13px;
+    line-height: 1.4;
+    margin: 0; /* Тоза кардани масофаи зиёдатии параграф */
+}
+
+.a55 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-left: 1px solid #2a2a2a;
+    padding-left: 35px;
+    min-width: 240px;
+}
+
+.a56 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.a54_email {
+    color: #999999;
+    font-size: 14px;
+    margin: 0;
+}
+
+.a57 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.a58 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid #2a2a2a;
+    padding-top: 15px;
+}
+
+.a59 {
+    display: flex;
+    gap: 10px;
+}
+
+.a60 {
+    background-color: #252525;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    border: 1px solid #333;
+}
+
+.a61 {
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid #2a2a2a;
+    padding-top: 25px;
+    color: #666666;
+    font-size: 13px;
+}
+
+.a61 p {
+    margin: 0;
+}
+
+.a62 {
+    border: 1px solid #444;
+    padding: 1px 5px;
+    border-radius: 50%;
+    font-size: 11px;
+    margin-left: 6px;
+}
 
 
 
@@ -360,7 +482,18 @@ box-shadow: 0px 0px 10px 1px rgb(0, 0, 0) ;
 .a45{
     order: 1;
 }
-
+.a51 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+    .a55 {
+        border-left: none;
+        padding-left: 0;
+        grid-column: span 3;
+        border-top: 1px solid #2a2a2a;
+        padding-top: 25px;
+    }
 }
     
 
@@ -493,4 +626,18 @@ box-shadow: 0px 0px 10px 1px rgb(0, 0, 0) ;
 .a45{
     order: 1;
 }
+.a46{
+    width: 80%;
+    font-size: 30px;
+
+}
+.a51 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .a55 {
+        grid-column: span 2;
+    }
+
+
 }
