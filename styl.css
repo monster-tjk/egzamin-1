@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.a1{
+display: flex;
+background: #673A44;
+color: white;
+justify-content: space-around;
+align-items: center;
+padding: 10px;
+}
+.a2{
+    display: flex;
+    gap: 50px;
+    font: 18px;
+}
+.a3{
+    background: #F2F2F2;
+    
+}
+.a4{
+    margin-left: 10%;
+}
+.a5{
+display: flex;
+flex-direction: column;
+row-gap: 40px;
+}
+.a6{
+font-size: 50px;
+width: 200px;
+}
+.a7{
+font-size: 18px;
+width: 300px;
+}
+.a8{
+padding: 15px ;
+width: 400px;
+font-size: 25px;
+color: white;
+background: linear-gradient( #843546,#6A3B45);
+border: none;
+border-radius: 7px;
+box-shadow: 0px 0px 10px 1px rgb(0, 0, 0) ;
+}
+.a9{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 25px;
+    gap: 20px;
+}
+.a12{
+    width: 500px;
+    height: 130px;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-content: center;
+    background: #F2F2F2;
+    box-shadow:  0px 0px 10px 1px rgb(138, 133, 109);
+}
+.a13{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a14{
+    width: 320px;
+    color: gray;
+    font-size: 18px;
+}
+.a15{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    .a10{
+        width:100% ;
+    }
+    .a15{
+        gap: 30px;
+    }
+    .a12{
+        width: 300px;
+    }
+    .a16{
+        width: 200px;
+    }
+    .a14{
+        width: 250px;
+    }
+   
+    }
+    
+
+
+
+
+@media (max-width:500px) {
+    .a2{
+        gap: 10px;
+        font-size: 13px;
+    }
+    .a9{
+        flex-direction: column;
+    }
+    .a11{
+        order: 1;
+    }
+    .a5{
+        order: 2;
+    }
+    .a6{
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .a7{
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+    }
+    .a15{
+        flex-direction: column;
+        align-items: center;
+    }
+    .a16{
+        width: 100%;
+    }
+.a12{
+    width: 75%;
+    height: 90px;
+    border-radius: 20px;
+}
+}
